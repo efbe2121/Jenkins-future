@@ -5,12 +5,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package -f ./Jenkins-future/pom.xml'
+                sh 'mvn -B -DskipTests clean package'
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test -f ./Jenkins-future/pom.xml'
+                sh 'mvn test -f ./Jenkins-future'
             }
             post {
                 always {
