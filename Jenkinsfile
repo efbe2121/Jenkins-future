@@ -1,4 +1,5 @@
-@Library('Library-Jenkins-Yow@master') _
+@Library('Library-Jenkins-Yow@master')
 pipelineDeliv(
-  text: "Helloooooooooooooo"
+  text: "Helloooooooooooooo, from vm"
+  agents: "vmmm"
 )
