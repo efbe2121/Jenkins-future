@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test -f ./Jenkins-future'
+                sh 'mvn test'
             }
             post {
                 always {
