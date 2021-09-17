@@ -1,4 +1,4 @@
 @Library('Library-Jenkins-Yow@master') _
-deliveryPipeline(
+pipelineDeliv(
   text: "Hello World"
 )
